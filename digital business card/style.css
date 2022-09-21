@@ -1,0 +1,28 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+@media screen and (min-width: 800px ) {
+    .body{
+        background-color: green;
+    }
+}
+.wrap-card{
+    width: 420px;
+    background-color: rgb(207, 224, 240);
+    border-bottom: solid 5px rgb(141, 101, 141);
+    display: block;
+    margin: 300px auto;
+}
+
+.wrap-info{
+    display: flex;
+    justify-content:space-around;
+    /* justify-content: center; */
+}
+.wrap-img{
+    margin: 15px 15px 15px 10px;
+}
+.wrap-para{
+    margin: 10px 10px auto 5px;
+}
